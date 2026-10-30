@@ -1,0 +1,16 @@
+# Python / 编辑器 / Jupyter
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# 原始数据：NYISO 负荷、日前预测和气象数据，可从官网重新下载（01_collect_data.ipynb）
+data/
+20230101pal_csv/
+LF_WEATHER__CSV/
+
+# notebook 生成的中间数据和预测结果：运行 notebook 即可重新生成，最大的超过 80MB
+notebooks/*.csv
+notebooks/*.pkl
